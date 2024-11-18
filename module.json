@@ -1,0 +1,40 @@
+{
+  "id": "cg-automation-items",
+  "title": "CG Automation Items",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "ClayGolem",
+      "email": "ClayGolemDM@gmail.com",
+      "url": "https://www.youtube.com/channel/UC4vSFO6H_HxTgM1UYnrtVIg",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "cg-automated-items",
+      "label": "CG Automated Items",
+      "path": "packs/cg-automated-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
